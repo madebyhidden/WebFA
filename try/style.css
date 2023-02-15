@@ -1,0 +1,72 @@
+body {
+  background-color: #f8f8f8;
+  font-family: "Roboto Light", sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
+}
+
+p.short-description {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+p.long-description {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+ul.characteristics {
+  margin-left: 20px;
+  list-style-type: square; /* Задаем тип маркера */
+  color: #707070; /* Задаем цвет текста элементов списка */
+  font-size: 14px; /* Задаем размер шрифта элементов списка */
+  line-height: 1.5; /* Задаем высоту строки */
+  padding-left: 20px; /* Задаем отступ слева */
+  border-bottom: 1px solid #ccc; /* Добавляем разделительные линии между элементами */
+}
+
+ul.characteristics li {
+  margin-bottom: 10px; /* Добавляем отступ между элементами списка */
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.center img {
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+
+.center .short-description {
+  font-family: "Felix Titling", serif;
+  text-transform: capitalize;
+  text-indent: 20px;
+  text-decoration: underline wavy #BCCEDC;
+  width: 50%;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.center h2 {
+
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
